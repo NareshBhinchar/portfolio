@@ -52,7 +52,7 @@ export default function footer() {
               <FaGithub className="text-5xl" />
             </a>
 
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/naresh-choudhary-978356346" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-5xl" />
             </a>
 
@@ -69,8 +69,6 @@ export default function footer() {
         <div className="border-t border-white mt-5">
           <p className="text-white pt-3"> © 2025 Naresh. All Rights Reserved. </p>
         </div>
-
-
       </div>
     </footer>
   );

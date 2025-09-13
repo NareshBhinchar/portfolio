@@ -38,14 +38,14 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio built using Next.js and Tailwind CSS.",
-    image: "/images/project-2.png",
-    link: "https://movie-app-seven-tau-54.vercel.app",
+    image: "/images/portfolio.png",
+    link: "https://portfolio-lovat-omega-crtqkjv8wm.vercel.app/",
   },
 ];
 
 export default function Home() {
-  const el = useRef(null); // Text element reference
-  const typed = useRef(null); // Typed instance
+  const el = useRef(null);
+  const typed = useRef(null);
 
   useEffect(() => {
     typed.current = new Typed(el.current, {
